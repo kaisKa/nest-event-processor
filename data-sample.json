@@ -1,0 +1,170 @@
+[
+  {
+    "engineId": "k100_1",
+    "location": "F2, branch3",
+    "temperature": 42,
+    "timestamp": "2024-02-23T05:21:37.437Z"
+  },
+  {
+    "engineId": "k100_2",
+    "location": "F3, branch1",
+    "temperature": 87,
+    "timestamp": "2024-02-24T20:59:09.577Z"
+  },
+  {
+    "engineId": "k100_3",
+    "location": "F4, branch3",
+    "temperature": 65,
+    "timestamp": "2024-02-26T19:15:07.344Z"
+  },
+  {
+    "engineId": "k100_4",
+    "location": "F4, branch1",
+    "temperature": 21,
+    "timestamp": "2024-02-27T09:34:34.958Z"
+  },
+  {
+    "engineId": "k100_5",
+    "location": "F4, branch3",
+    "temperature": 54,
+    "timestamp": "2024-02-21T01:49:01.258Z"
+  },
+  {
+    "engineId": "k100_6",
+    "location": "F1, branch2",
+    "temperature": 90,
+    "timestamp": "2024-02-25T02:02:54.830Z"
+  },
+  {
+    "engineId": "k100_7",
+    "location": "F1, branch3",
+    "temperature": 1,
+    "timestamp": "2024-02-28T22:46:41.632Z"
+  },
+  {
+    "engineId": "k100_8",
+    "location": "F3, branch3",
+    "temperature": 7,
+    "timestamp": "2024-02-28T14:07:36.540Z"
+  },
+  {
+    "engineId": "k100_9",
+    "location": "F4, branch2",
+    "temperature": 97,
+    "timestamp": "2024-02-27T23:53:12.792Z"
+  },
+  {
+    "engineId": "k100_10",
+    "location": "F3, branch1",
+    "temperature": 55,
+    "timestamp": "2024-02-23T15:26:35.724Z"
+  },
+  {
+    "engineId": "k100_11",
+    "location": "F4, branch3",
+    "temperature": 23,
+    "timestamp": "2024-02-29T03:06:29.938Z"
+  },
+  {
+    "engineId": "k100_12",
+    "location": "F4, branch2",
+    "temperature": 67,
+    "timestamp": "2024-02-27T12:03:17.229Z"
+  },
+  {
+    "engineId": "k100_13",
+    "location": "F2, branch1",
+    "temperature": 86,
+    "timestamp": "2024-02-28T00:23:28.962Z"
+  },
+  {
+    "engineId": "k100_14",
+    "location": "F4, branch2",
+    "temperature": 66,
+    "timestamp": "2024-02-26T19:22:52.215Z"
+  },
+  {
+    "engineId": "k100_15",
+    "location": "F2, branch3",
+    "temperature": 89,
+    "timestamp": "2024-02-25T05:47:08.850Z"
+  },
+  {
+    "engineId": "k100_16",
+    "location": "F1, branch1",
+    "temperature": 82,
+    "timestamp": "2024-02-22T22:30:57.145Z"
+  },
+  {
+    "engineId": "k100_17",
+    "location": "F4, branch1",
+    "temperature": 4,
+    "timestamp": "2024-02-21T09:54:47.500Z"
+  },
+  {
+    "engineId": "k100_18",
+    "location": "F2, branch1",
+    "temperature": 69,
+    "timestamp": "2024-02-25T16:44:57.679Z"
+  },
+  {
+    "engineId": "k100_19",
+    "location": "F2, branch3",
+    "temperature": 3,
+    "timestamp": "2024-02-21T13:26:41.014Z"
+  },
+  {
+    "engineId": "k100_20",
+    "location": "F3, branch2",
+    "temperature": 45,
+    "timestamp": "2024-02-21T12:09:34.335Z"
+  },
+  {
+    "engineId": "k100_21",
+    "location": "F4, branch2",
+    "temperature": 63,
+    "timestamp": "2024-02-21T19:51:09.924Z"
+  },
+  {
+    "engineId": "k100_22",
+    "location": "F3, branch1",
+    "temperature": 56,
+    "timestamp": "2024-02-26T20:43:33.816Z"
+  },
+  {
+    "engineId": "k100_23",
+    "location": "F2, branch2",
+    "temperature": 49,
+    "timestamp": "2024-02-24T03:32:29.499Z"
+  },
+  {
+    "engineId": "k100_24",
+    "location": "F3, branch1",
+    "temperature": 84,
+    "timestamp": "2024-02-27T04:47:20.575Z"
+  },
+  {
+    "engineId": "k100_25",
+    "location": "F1, branch3",
+    "temperature": 51,
+    "timestamp": "2024-02-21T13:47:48.249Z"
+  },
+  {
+    "engineId": "k100_26",
+    "location": "F4, branch3",
+    "temperature": 40,
+    "timestamp": "2024-02-23T23:45:08.366Z"
+  },
+  {
+    "engineId": "k100_27",
+    "location": "F3, branch2",
+    "temperature": 88,
+    "timestamp": "2024-02-25T17:07:23.222Z"
+  },
+  {
+    "engineId": "k100_28",
+    "location": "F3, branch2",
+    "temperature": 10,
+    "timestamp": "2024-02-26T17"
+  }
+]
