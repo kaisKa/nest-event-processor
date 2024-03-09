@@ -41,7 +41,7 @@ export class NormalTempratureConsumerService implements OnModuleInit {
             this.logger.log(`Received message from ${this.queueName} queue: ${jsonMessage}`, NormalTempratureConsumerService.name);
             const model: CreateEventDto = JSON.parse(jsonMessage)[0];
 
-            this.eventService.validate(model);
+            await this.eventService.validate(model);
             this.eventService.create(model);
 
         } catch (error) {
