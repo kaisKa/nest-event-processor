@@ -16,7 +16,7 @@ export class EventHubConsumerService implements OnModuleInit {
 
     credential = new DefaultAzureCredential();
 
-    private readonly EVENT_HUB_NAME =   process.env.EVENT_HUB_NAME || "temprature-event-hub";
+    private readonly EVENT_HUB_NAME = process.env.EVENT_HUB_NAME || "temprature-event-hub";
     private readonly EVENT_HUB_NAME_SPACE = process.env.EVENT_HUB_NAME_SPACE || "nest-eventhub.servicebus.windows.net";
     private readonly CONSUMER_GROUP = process.env.CONSUMER_GROUP || "$Default";
 
@@ -58,6 +58,10 @@ export class EventHubConsumerService implements OnModuleInit {
                 {
 
                     processEvents: async (events, context) => {
+                        if (events.length === 0) {
+                            this.logger.log(`No events received within wait time. Waiting for next interval`);
+                            return;
+                        }
                         for (const event of events) {
 
                             const myEvent: TempEventHub = event.body
@@ -104,8 +108,8 @@ export class EventHubConsumerService implements OnModuleInit {
             this.logger.log(`Processing event from Event Hub: ${JSON.stringify(event)}`, EventHubConsumerService.name);
 
 
-            const temp: TempEventHub = JSON.parse(JSON.stringify(event.body))[0];
-            if (temp.temperature < 30) {
+            const temp: TempEventHub = JSON.parse(JSON.stringify(event.body));
+            if (temp.temperature <= 30) {
                 // Send the event to the appropriate Service Bus queue
                 await this.serviceBusService.sendMessageToQueue(queues.NORMAL, event);
                 this.logger.log(`Event sent to ${queues.NORMAL} queue after processing`, EventHubConsumerService.name);

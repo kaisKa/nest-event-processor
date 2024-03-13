@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
-import { Injectable, ValidationError } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { CreateEventDto } from './dto/create-event.dto';
-import { UpdateEventDto } from './dto/update-event.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { TempEvent } from './schemas/event.schema';
