@@ -39,7 +39,7 @@ export class HighTempratureConsumerService implements OnModuleInit {
         try {
             const jsonMessage = JSON.stringify(message.body);
             this.logger.log(`Received message from ${this.queueName} queue: ${jsonMessage}`, HighTempratureConsumerService.name);
-            const model: CreateEventDto = JSON.parse(jsonMessage)[0];
+            const model: CreateEventDto = JSON.parse(jsonMessage);
             await this.eventService.validate(model);
             this.eventService.create(model);
 
